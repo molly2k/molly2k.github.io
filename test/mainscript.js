@@ -8,7 +8,7 @@ function Login()
     }
     if (userEmail == "ROOT" && userPassword == "Molly290!")
     {
-        window.location = 'Main/mainpage.html'
+        window.location = 'mainpage.html'
     }
     else
     {
