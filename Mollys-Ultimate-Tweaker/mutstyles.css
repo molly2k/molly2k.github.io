@@ -51,6 +51,9 @@
 .navbar__links {
     color: #fff;
     display: flex;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
