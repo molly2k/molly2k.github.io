@@ -181,3 +181,8 @@
     justify-content: center;
     padding: 5px 5px;
 }
+
+.main__content h9 {
+    justify-content: center;
+    padding: 50px 50px;
+}
