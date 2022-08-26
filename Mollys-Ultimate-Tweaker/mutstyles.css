@@ -70,15 +70,15 @@
 
 .main__container {
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 10fr 0fr;
     align-items: flex-start;
     justify-self: center;
     margin: 50 auto;
-    height: 70vh;
-    
+    height: 700px;
+    text-align: center;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 3000px;
     padding: 0 50px;
 }
 
@@ -92,7 +92,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
-.main__content h3 {
+.main__content h4 {
     font-size: 4rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
@@ -103,16 +103,61 @@
     
 }
 
+.main__content h4 {
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.main__content h5 {
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.main__content h3 {
+    justify-content: center;
+    padding: 80px 80px;
+}
+
+.main__content h9 {
+    justify-content: center;
+    padding: 50px 50px;
+}
+
 .main__content h2 {
     font-size: 1.5rem;
     color: #fff;
 }
 
-.main__content h4 {
+.main__content h5 {
     font-size: 1.5rem;
     color: #fff;
 }
 
+.main__content h6 {
+    font-size: 4rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main__content h7 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.main__content h8 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.main__list {
+
+}
 
 
 .footer__container {

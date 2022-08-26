@@ -70,16 +70,19 @@
 
 .main__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: flex-start;
+    grid-template-columns: 5fr 0fr;
+    align-items: center;
+    text-align: center;
     justify-self: center;
     margin: 50 auto;
     height: 70vh;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 3500px;
     padding: 0 50px;
 }
+
+
 
 .main__content h1 {
     font-size: 4rem;
