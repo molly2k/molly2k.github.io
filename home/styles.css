@@ -59,7 +59,7 @@
 }
 
 .navbar__links:hover {
-    color: #f77062;
+    color: #77d4ff;
     transition: all 0.3s ease;
 }
 
@@ -86,8 +86,8 @@
 
 .main__content h1 {
     font-size: 4rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #77d4ff;
+    background-image: linear-gradient(to top, #08efff 0%, #4a7afc 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -131,7 +131,7 @@
 }
 
 .contact__links a:hover {
-    color: #f77062;
+    color: #77d4ff;
     transition: all 0.2s ease;
 
 }
@@ -142,5 +142,23 @@
     justify-content: center;
     text-align: center;
     display: flex;
+}
+
+.main__mut-link {
+
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    background-color: #77d4ff;
+    background-image: linear-gradient(to top, #7bf6ff 0%, #c2d2ff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main__content h2 a:hover {
+    background-image: none;
+    background-color: #fff;
+    transition: all 0.2s ease;
 }
 

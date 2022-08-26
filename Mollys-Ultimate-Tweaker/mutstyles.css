@@ -59,7 +59,7 @@
 }
 
 .navbar__links:hover {
-    color: #f77062;
+    color: #77d4ff;
     transition: all 0.3s ease;
 }
 
@@ -85,8 +85,8 @@
 
 .main__content h1 {
     font-size: 4rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #77d4ff;
+    background-image: linear-gradient(to top, #08efff 0%, #4a7afc 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -94,8 +94,8 @@
 }
 .main__content h4 {
     font-size: 4rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #77d4ff;
+    background-image: linear-gradient(to top, #08efff 0%, #4a7afc 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -137,8 +137,8 @@
 
 .main__content h6 {
     font-size: 4rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #77d4ff;
+    background-image: linear-gradient(to top, #08efff 0%, #4a7afc 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -192,7 +192,7 @@
 }
 
 .contact__links a:hover {
-    color: #f77062;
+    color: #77d4ff;;
     transition: all 0.2s ease;
 
 }
@@ -207,8 +207,8 @@
 
 .purchase__Discord {
     font-size: 35px;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff82a1 0%, #f86335 100%);
+    background-color: #77d4ff;
+    background-image: linear-gradient(to top, #41aaff 0%, #99bdff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
