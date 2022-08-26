@@ -5,5 +5,20 @@ function homeNav()
 
 function mutNav()
 {
-    window.location = '/Mollys-Ultimate-Tweaker'
+    window.location = '/Mollys-Ultimate-Tweaker';
+}
+
+function archiveNav()
+{
+    window.location = '/archive';
+}
+
+function fnsNav()
+{
+    window.location = '/archive/fnl';
+}
+
+function macroNav()
+{
+    window.location = '/archive/fnmacro';
 }

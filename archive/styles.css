@@ -66,7 +66,6 @@
     transition: all 0.3s ease;
 }
 
-
 .main {
     background-image: linear-gradient(to right, #101010 0%, #131313 100%);
 }
@@ -84,81 +83,6 @@
     max-width: 3500px;
     padding: 0 50px;
 }
-
-
-.main__content h1 {
-    font-size: 4rem;
-    background-color: #77d4ff;
-    background-image: linear-gradient(to top, #08efff 0%, #4a7afc 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-.main__content h4 {
-    font-size: 4rem;
-    background-color: #77d4ff;
-    background-image: linear-gradient(to top, #08efff 0%, #4a7afc 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    
-}
-
-.main__content h4 {
-    justify-items: center;
-    align-items: center;
-    
-}
-
-.main__content h5 {
-    font-size: 35px;
-    justify-items: center;
-    align-items: center;
-    
-}
-
-.main__content h3 {
-    justify-content: center;
-    padding: 80px 80px;
-}
-
-.main__content h9 {
-    justify-content: center;
-    padding: 50px 50px;
-}
-
-.main__content h2 {
-    font-size: 1.5rem;
-    color: #fff;
-}
-
-.main__content h5 {
-    font-size: 1.5rem;
-    color: #fff;
-}
-
-.main__content h6 {
-    font-size: 4rem;
-    background-color: #77d4ff;
-    background-image: linear-gradient(to top, #08efff 0%, #4a7afc 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-
-.main__content h7 {
-    font-size: 1.5rem;
-    color: #fff;
-}
-
-.main__content h8 {
-    font-size: 1.5rem;
-    color: #fff;
-}
-
 
 .footer__container {
     background-image: linear-gradient(to right, #101010 0%, #131313 100%);
@@ -205,7 +129,29 @@
     display: flex;
 }
 
-.purchase__Discord {
+.main__content h9 {
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.main__content h1 {
+    font-size: 4rem;
+    background-color: #77d4ff;
+    background-image: linear-gradient(to top, #08efff 0%, #4a7afc 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.archive__content {
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+.archive__links {
     font-size: 30px;
     background-color: #77d4ff;
     background-image: linear-gradient(to top, #41aaff 0%, #99bdff 100%);
@@ -213,12 +159,75 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    border: none;
 }
 
-.purchase__Discord:hover {
+.archive__links:hover {
     background-image: none;
     background-color: #fff;
     transition: all 0.5s ease;
+}
+
+.przerwa {
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+.przerwa1 {
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+.main__content h3 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.fnl__content h2{
+    color: #fff;
+}
+
+.button__fnl {
+    font-size: 3rem;
+    background-color: #77d4ff;
+    background-image: linear-gradient(to top, #41aaff 0%, #99bdff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    border: none;
+}
+
+.button__fnl:hover {
+    background-image: none;
+    background-color: #fff;
+    transition: all 0.2s ease;
+
+}
+
+.fnl__download h2 {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.fnl__download h4 {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.fnl__archive {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.fnl__archive:hover {
+    color: #77d4ff;
+    transition: all 0.2s ease;
+}
+
+.fnl__content h5 {
+    color: red;
 }
 
 @media screen and (max-width: 960px) {
@@ -226,5 +235,3 @@
         height: 1000px;
     }
 }
-
-
