@@ -1,1 +1,1 @@
-window.location = '/home/index.html'
+window.location = '/home/home.html'
