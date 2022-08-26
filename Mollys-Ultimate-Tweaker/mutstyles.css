@@ -155,10 +155,6 @@
     color: #fff;
 }
 
-.main__list {
-
-}
-
 
 .footer__container {
     background-image: linear-gradient(to right, #101010 0%, #131313 100%);
@@ -223,7 +219,7 @@
 
 @media screen and (max-width: 960px) {
     .main__container {
-        height: 1500px;
+        height: 2000px;
     }
 
     
