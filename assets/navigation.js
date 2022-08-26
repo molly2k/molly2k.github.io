@@ -1,9 +1,9 @@
 function homeNav()
 {
-    window.location = '/home/';
+    window.location = '/home';
 }
 
 function mutNav()
 {
-    window.location = '/Mollys-Ultimate-Tweaker/'
+    window.location = '/Mollys-Ultimate-Tweaker'
 }
