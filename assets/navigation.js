@@ -5,7 +5,7 @@ function homeNav()
 
 function mutNav()
 {
-    window.location = '/Mollys-Ultimate-Tweaker';
+    window.location = '/ultimate-tweaker';
 }
 
 function archiveNav()
