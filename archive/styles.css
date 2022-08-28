@@ -59,6 +59,7 @@
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    cursor: pointer;
 }
 
 .navbar__links:hover {
@@ -160,6 +161,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .archive__links:hover {
@@ -196,6 +198,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .button__fnl:hover {
