@@ -22,3 +22,8 @@ function macroNav()
 {
     window.location = '/archive/fnmacro';
 }
+
+function projectsNav() 
+{
+    window.location = '/projects/'
+}
